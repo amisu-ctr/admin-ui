@@ -14,8 +14,8 @@ const Home = () => {
             <div className="box box3"><ChartBox {...chartBoxProduct}/></div>
             <div className="box box4"></div>
             <div className="box box5"><ChartBox {...chartBoxConversion}/></div>
-            <div className="box box6" {...chartBoxRevenue}>Box6</div>
-            <div className="box box7">Box7</div>
+            <div className="box box6" {...chartBoxRevenue}>/**Box6*/</div>
+            <div className="box box7">/**Box7*/</div>
             <div className="box box8"><BarChartBox {...barChartBoxVisit} /></div>
             <div className="box box9"><BarChartBox {...barChartBoxRevenue} /></div>
         </div>
